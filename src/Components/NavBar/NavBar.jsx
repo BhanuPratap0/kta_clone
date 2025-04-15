@@ -12,7 +12,7 @@ function NavBar() {
       <Container fluid>
         <Navbar.Brand href="#">
           <img
-            src="./src/Assets/LandingPage/KtaIcon.png"
+            src="./Assets/LandingPage/KtaIcon.png"
             width={"100"}
             alt="KTA"
           />
