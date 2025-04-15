@@ -1,0 +1,24 @@
+.HeadingClass {
+  text-align: center;
+  font-family: Manrope;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 125.025%; /* 295.737px */
+  background: black;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  p {
+    font-family: Manrope;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125.025%;
+    background: linear-gradient(170deg, #e31e24 27.67%, #262065 53.76%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
