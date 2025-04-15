@@ -1,0 +1,11 @@
+.firstSliderImg{
+    img{
+
+        width: 100vw;
+        overflow: hidden;
+    }
+    .slick-prev,
+    .slick-next {
+      display: none !important;  /* Hide arrows */
+    }
+}
