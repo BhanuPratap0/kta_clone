@@ -6,14 +6,14 @@ const TestiCards = ({ data }) => {
     <div className={styles.TestiCard}>
       <img
         className={styles.QuotationPic}
-        src="./src/Assets/LandingPage/quotation.svg"
+        src="./Assets/LandingPage/quotation.svg"
         alt=""
       />
       <div className={styles.CardDiv}>
         <div className={styles.FirstSection}>
           <img
             className={styles.Stars}
-            src="./src/Assets/LandingPage/stars.svg"
+            src="./Assets/LandingPage/stars.svg"
             alt=""
           />
           <p className={styles.Comment}>{data.comment}</p>
