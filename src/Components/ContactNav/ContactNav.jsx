@@ -4,10 +4,10 @@ function ContactNav() {
   return (
     <div className={styles.ContactNav}>
       <div>
-        <img src="./src/Assets/LandingPage/contactIcon.svg" /> +91 94140-09900{" "}
+        <img src="./Assets/LandingPage/contactIcon.svg" /> +91 94140-09900{" "}
       </div>
       <div>
-        <img src="./src/Assets/LandingPage/mailIcon.svg" className="px-1" />{" "}
+        <img src="./Assets/LandingPage/mailIcon.svg" className="px-1" />{" "}
         info@ktasolutions.in{" "}
       </div>
     </div>
