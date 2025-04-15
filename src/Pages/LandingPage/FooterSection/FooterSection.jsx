@@ -9,19 +9,19 @@ const FooterSection = () => {
        <div className={styles.RightTopSection}>
 
 <div>
-  <img src="./src/Assets/LandingPage/PlatFacebook.svg" />
+  <img src="./Assets/LandingPage/PlatFacebook.svg" />
 </div>
 <div>
-  <img src="./src/Assets/LandingPage/PlatInstagram.svg" alt="" />
+  <img src="./Assets/LandingPage/PlatInstagram.svg" alt="" />
 </div>
 <div>
-  <img src="./src/Assets/LandingPage/PlatWhatsapp.svg" alt="" />
+  <img src="./Assets/LandingPage/PlatWhatsapp.svg" alt="" />
 </div>
 
 </div>
       <div className={styles.LeftSection}>
         <div className={styles.Logo}>
-          <img src="./src/Assets/LandingPage/KtaIcon.png" alt="" />
+          <img src="./Assets/LandingPage/KtaIcon.png" alt="" />
         </div>
         <div className={styles.Copyright}>
           © Copyright KTA Solutions. All Rights Reserved Mfd. and Marketed by
