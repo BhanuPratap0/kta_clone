@@ -1,8 +1,7 @@
 {
-  "routes": [
-    {
-      "src": "/[^.]+",
-      "dest": "/"
-    }
-  ]
-}
+    "routes": [
+      { "src": "/", "dest": "/" },
+      { "src": "/app/about", "dest": "/" },
+      { "src": "/app/calculator", "dest": "/" }
+    ]
+  }
