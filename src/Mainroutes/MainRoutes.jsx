@@ -19,12 +19,12 @@ const MainRoutes = () => {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Navigate to={"landingPage"} />}></Route>
-          <Route path="/landingPage" element={<LandingPage />} />
+          <Route exact path="/" element={<Navigate to={"landingPage"} />}></Route>
+          <Route exact path="/landingPage" element={<LandingPage />} />
 
-          <Route path="/app" element={<AppLayout />}>
+          <Route exact path="/app" element={<AppLayout />}>
             {appRoutes.map((route, index) => (
-              <Route path={route.path} element={route.element} key={index} />
+              <Route exact path={route.path} element={route.element} key={index} />
             ))}{" "}
           </Route>
         </Routes>
