@@ -1,0 +1,75 @@
+#downloadsPageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .DownloadOption{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .outlineButton {
+    display: flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 99px;
+    border: 1px solid #e2e2e2;
+    transition: background 0.5s ease-in-out;
+    transition: color 0.2s ease-in-out;
+
+    &:hover{
+        background-color: black;
+        color: white;
+        transition: background 0.5s ease-in-out;
+        transition: color 0.2s ease-in-out;
+
+    }
+  }
+}
+.DownloadCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 100px;
+}
+.DownloadCard {
+  display: flex;
+  width: 210px;
+  padding-top: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 13.6px;
+  border-radius: 8px;
+  border: 0.85px solid #e2e2e2;
+  background: #fff;
+
+  .DownloadCardHeading .DownloadCardSubHeading {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .DownloadCardFooter {
+    cursor: pointer;
+    display: flex;
+    height: 52px;
+    padding: 20px 24.65px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    align-self: stretch;
+    border-radius: 0px 0px 6.8px 6.8px;
+    background: #e31e24;
+  }
+}

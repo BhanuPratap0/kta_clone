@@ -21,7 +21,7 @@ const HeroSection = () => {
       <div className={styles.LandingEnding}>
         <div className="redGradient"></div>
         <img
-          src="./Assets/LandingPage/KTABanner.png"
+          src="./src/Assets/LandingPage/KTABanner.png"
           className={styles.LandingBanner}
           width={"45%"}
           alt=""

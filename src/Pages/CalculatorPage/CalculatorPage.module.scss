@@ -1,0 +1,165 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .LargeText {
+    margin-top: 70px;
+    width: 95%;
+    color: #222;
+    font-family: Manrope;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125.025%; /* 70.014px */
+    span {
+      background: var(
+        --brand,
+        linear-gradient(100deg, #e31e24 7.47%, #262065 92.53%)
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .InputContainer {
+    margin-top: 70px;
+    width: 95%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+
+    .Buttons {
+      display: flex;
+      gap: 24px;
+      .CalcBtn {
+        display: flex;
+        width: 158px;
+        padding: 11px 23px;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        border-radius: 91px;
+        background: #e31e24;
+        border: none;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .ResetBtn {
+        display: flex;
+        padding: 11px 23px;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        border-radius: 91px;
+        border: 1px solid #0c0c0c;
+        font-weight: 400;
+        font-family: Poppins;
+      }
+    }
+  }
+
+  .Result {
+    width: 95%;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .SizeInput {
+      width: 281px;
+    }
+    h1 {
+      color: #222;
+      font-family: Manrope;
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 125%;
+    }
+  }
+
+  .GeneralInfo {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 70px 0px;
+
+    .BulletPoints {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .Heading {
+      color: #222;
+      font-family: Manrope;
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 125.025%; /* 70.014px */
+    }
+  }
+}
+
+.FilterButtons {
+  width: 95%;
+  display: flex;
+  gap: 1rem;
+  justify-content: start;
+  margin-top: 40px;
+  .activeButton {
+    display: flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 99px;
+    background: #1a1a1a;
+    color: white;
+  }
+  .latentButton {
+    display: flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 99px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 99px;
+    border: 1px solid #e2e2e2;
+  }
+}
+
+.SizesContainer {
+  display: flex;
+  gap: 24px;
+  .Size {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    p {
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    .ResultLabel {
+      width: 170px;
+    }
+    input {
+      border-radius: 8px;
+      border: 1.352px solid #e8e8e8;
+      background: #ededed;
+      display: flex;
+      width: 177px;
+      height: 62px;
+      padding: 0px 24px;
+      align-items: center;
+    }
+  }
+}

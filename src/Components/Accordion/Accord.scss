@@ -1,0 +1,20 @@
+/* Accord.css */ .accordion-button{
+    
+    height: 72px;
+    padding: 10px 24px;
+    border-radius: 12px;
+border: 1px solid #E4E4E4;
+background: #F1F1F1;
+border-radius: 12px !important;
+}
+
+/* Accord.css */
+.accordion-item {
+    border-radius: 12px !important;
+    margin-bottom: 1rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color:black;
+    background-color: #d6d4d4;
+}

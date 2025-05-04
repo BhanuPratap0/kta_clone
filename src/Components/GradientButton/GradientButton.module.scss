@@ -31,14 +31,19 @@
   transition: opacity 0.3s ease;
   z-index: -1;
   border-radius: 91.52px;
+
 }
 
 .GradientButton:hover::before {
   opacity: 1;
+  border:none;
+  
 }
 
 .GradientButton:hover {
   color: white;
+  border:1px solid transparent;
+
 }
 
 

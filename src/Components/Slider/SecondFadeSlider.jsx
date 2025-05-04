@@ -12,7 +12,10 @@ function SecondFadeSlider() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: false
+    arrows: false,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
   };
   return (
     <div className="slider-container">

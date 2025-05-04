@@ -3,25 +3,27 @@ import styles from "./FooterSection.module.scss";
 import { IoLocationOutline } from "react-icons/io5";
 import { BsTelephone } from "react-icons/bs";
 import { MdMailOutline } from "react-icons/md";
+import facebookIcon from "@/Assets/LandingPage/PlatFacebook.svg";
+import instagramIcon from "@/Assets/LandingPage/PlatInstagram.svg";
+import whatsappIcon from "@/Assets/LandingPage/PlatWhatsapp.svg";
+import ktaIcon from "@/Assets/LandingPage/KtaIcon.png";
 const FooterSection = () => {
   return (
     <div className={styles.FooterSection}>
-       <div className={styles.RightTopSection}>
-
-<div>
-  <img src="./Assets/LandingPage/PlatFacebook.svg" />
-</div>
-<div>
-  <img src="./Assets/LandingPage/PlatInstagram.svg" alt="" />
-</div>
-<div>
-  <img src="./Assets/LandingPage/PlatWhatsapp.svg" alt="" />
-</div>
-
-</div>
+      <div className={styles.RightTopSection}>
+        <div>
+          <img src={facebookIcon} />
+        </div>
+        <div>
+          <img src={instagramIcon} alt="" />
+        </div>
+        <div>
+          <img src={whatsappIcon} alt="" />
+        </div>
+      </div>
       <div className={styles.LeftSection}>
         <div className={styles.Logo}>
-          <img src="./Assets/LandingPage/KtaIcon.png" alt="" />
+          <img src={ktaIcon} alt="" />
         </div>
         <div className={styles.Copyright}>
           © Copyright KTA Solutions. All Rights Reserved Mfd. and Marketed by
@@ -79,7 +81,6 @@ const FooterSection = () => {
           </span>
         </div>
       </div>
-     
     </div>
   );
 };

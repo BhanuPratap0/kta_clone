@@ -1,0 +1,56 @@
+
+.center .slick-center  {
+  transform: scaleX(1);
+  transition: transform 0.6s ease, opacity 0.6s ease;
+  opacity: 1;
+}
+
+.center > div > div > div {
+  opacity: 1;
+  transform: scaleX(0.5);
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+.slick-list{
+  
+  /* overflow: visible !important; */
+
+}
+
+.slick-prev {
+  right: -2rem !important;
+  z-index: 999;
+  height: 50vh !important;
+  width: 30% !important;
+}
+
+.slick-next {
+  right: -2rem !important;
+  z-index: 999;
+  height: 50vh !important;
+  width: 30% !important;
+  
+}
+
+/* Replace Default Arrows with Unicode Characters */
+.slick-prev::before {
+  content: "\276E" !important; /* Left arrow Unicode */
+  font-size: 2rem !important;
+  color: black !important; /* Adjust arrow color */
+  position: absolute;
+  right: 35%;
+  top: 40%;
+}
+
+.slick-next::before {
+  content: "\276F" !important; /* Right arrow Unicode */
+  font-size: 2rem !important;
+  color: black !important; /* Adjust arrow color */
+  position: absolute;
+  left: 35%;
+  top: 40%;
+}
+
+.slick-slide img{
+  width: 100%;
+}

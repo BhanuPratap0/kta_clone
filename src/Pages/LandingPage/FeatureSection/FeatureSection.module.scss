@@ -3,17 +3,18 @@
   padding: 40px 50px;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 70px;
+  justify-content: space-between;
+  // gap: 70px;
+  flex-wrap: wrap;
   margin: 80px 60px;
   position: relative;
 
   .LeftSection {
-    flex: 1;
     display: flex;
     align-items: start;
     flex-direction: column;
     margin-left: 80px;
+    
     .Text {
       margin-top: 16px;
       margin-bottom: 35px;
@@ -48,11 +49,10 @@
   }
 
   .RightSection {
-    flex: 1;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid ;
+    grid-template-columns: repeat(2, 1fr); // 2 cards per row
     gap: 24px;
-    justify-content: space-evenly;
+    justify-items: center;
 
     .FeatureCard {
       display: flex;
@@ -89,3 +89,7 @@
     background: linear-gradient(103deg, #e31e24 39.64%, #262065 83.65%);
   }
 }
+
+
+
+

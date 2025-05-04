@@ -1,0 +1,63 @@
+$mobile: 786px;
+
+#TopBanner {
+  display: flex;
+  width: 95%;
+  height: 393.269px;
+  padding: 10%;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #191919;
+  gap: 50px;
+  @media (max-width: $mobile) {
+    display: flex;
+    padding-top: 2%;
+    padding-inline: 10%;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  img {
+    @media (max-width: $mobile) {
+      transform: scale(0.4);
+    }
+  }
+  .TopBannerHead {
+  }
+  .TopBannerDetails {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 40%;
+
+    .TopBannerDetailsHead {
+      font-family: Manrope;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 125.025%; /* 20.004px */
+      letter-spacing: -0.64px;
+      background: linear-gradient(102deg, #e31e24 8.72%, #262065 155.31%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: $mobile) {
+      width: 100%;
+      color: #fff;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}

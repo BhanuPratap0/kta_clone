@@ -49,9 +49,15 @@ input[type="search"]::placeholder {
 input[type="search"]:not(:focus)::placeholder {
   color: transparent;
 }
-
-.navLink {
-  color: #000;
+//for about page
+#navbarScrollingDropdown{
+  color: black;
+}
+#navbarScrollingDropdown:hover{
+  color: #E31E24;
+}
+.navLink  {
+  color: black ;
   font-family: Poppins;
   font-size: 0.8rem;
   font-style: normal;
@@ -63,6 +69,36 @@ input[type="search"]:not(:focus)::placeholder {
   margin-right: 1rem;
 }
 
+.navLink:hover{
+  color:#E31E24;
+}
+
+.navLinkWhite{
+  color: white; 
+  font-family: Poppins;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+
+  &:hover{
+    color: #E31E24;
+  }
+
+}
+
+#navbarScrollingDropdownWhite{
+  color: white;
+  &:hover{
+    color: #E31E24;
+  }
+}
+
+//
 
 .contactButton {
   position: relative;

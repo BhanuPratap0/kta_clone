@@ -1,6 +1,8 @@
+$mobile: 768px;
+
 .sliderImg {
   overflow: hidden;
-  height: 450px;
+  height: 500px;
   position: relative;
 
   img {
@@ -10,6 +12,11 @@
     bottom: 380px;
     width: 100vw;
     overflow: hidden;
+
+    @media (max-width: $mobile) {
+      bottom: 20px;
+      width: 100%;
+    }
   }
 }
 .slider-container {
@@ -25,6 +32,11 @@
   margin-left: 10vw;
   width: 375px;
 
+  @media (max-width: $mobile) {
+    gap: 0;
+    margin-left: 30px;
+  }
+
   .top-heading {
     color: #fff;
     font-family: Manrope;
@@ -33,6 +45,16 @@
     font-weight: 800;
     line-height: normal;
     text-transform: uppercase;
+
+    @media (max-width: $mobile) {
+      color: #fff;
+      font-family: Manrope;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      text-transform: uppercase;
+    }
   }
   .heading {
     color: #fff;
@@ -40,7 +62,15 @@
     font-size: 3rem;
     font-style: normal;
     font-weight: 800;
-    line-height: 64px; /* 128% */
+    line-height: 64px;
+    @media (max-width: $mobile) {
+      color: #fff;
+      font-family: Manrope;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 30.65px;
+    }
   }
 
   p {
@@ -52,11 +82,20 @@
     line-height: normal;
     display: flex;
     flex-wrap: wrap;
+
+    @media (max-width: $mobile) {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      flex-wrap: wrap;
+      width: 80%;
+    }
   }
 }
 ////iske jagha gradient button laga ke border color white karna hai ///
-
-
 
 .outline-button {
   position: relative;
@@ -72,6 +111,10 @@
   cursor: pointer;
   color: white;
   transition: color 0.3s ease, border 0.3s ease;
+
+  @media (max-width: $mobile) {
+    display: none;
+  }
 }
 
 .outline-button::before {
@@ -83,7 +126,7 @@
   width: 100%;
   background: var(
     --brand,
-    linear-gradient(100deg, #E31E24 7.47%, #262065 92.53%)
+    linear-gradient(100deg, #e31e24 7.47%, #262065 92.53%)
   );
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -100,14 +143,8 @@
   border-color: transparent;
 }
 
-
-
-
-
-
-
 .slick-dots {
-  position: absolute;
+  position:absolute;
   bottom: 272px;
   display: block;
   width: 100%;
@@ -117,8 +154,12 @@
   text-align: center;
   color: white;
   transform: rotate(90deg);
-  right: -619px;
+  right: -650px;
   z-index: 500;
+
+  @media (max-width: $mobile) {
+    display: none;
+  }
 }
 
 .slick-dots li button:before {
